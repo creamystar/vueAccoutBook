@@ -1,7 +1,7 @@
 <template>
     <div id="header-bar">
-       <router-link to="/"> <span>Home</span></router-link>
-       <router-link to="/game"> <span>Game</span></router-link>
+       <router-link to="/"><span>Home</span></router-link>
+       <router-link to="/game/memoGrid"><span>Game</span></router-link>
        <span id="header-menu">Menu</span>
     </div>
 </template>
@@ -14,7 +14,7 @@ export default {
 #header-bar{
     width: 100%;
     height: 50px;
-    background-color:cadetblue;
+    background-color: rgba(50,150,140);
 }
 #header-bar span:first-child{
     margin-left: 20px;
