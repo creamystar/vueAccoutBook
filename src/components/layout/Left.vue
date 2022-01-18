@@ -1,7 +1,7 @@
 <template>
     <div id="left-wrap">
-        <router-link to="/game/memoGrid"><div>memo grid</div></router-link>
-        <router-link to="/game/typingGame"><div>typing game</div></router-link>
+        <router-link style="text-decoration:none;color:#444;" to="/game/memoGrid"><div>memo grid</div></router-link>
+        <router-link style="text-decoration:none;color:#444;" to="/game/typingGame"><div>typing game</div></router-link>
     </div>
 </template>
 <script>

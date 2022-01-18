@@ -1,7 +1,7 @@
 <template>
     <div id="header-bar">
        <router-link to="/"><span>Home</span></router-link>
-       <router-link to="/game/memoGrid"><span>Game</span></router-link>
+       <router-link to="/game"><span>Game</span></router-link>
        <span id="header-menu">Menu</span>
     </div>
 </template>
